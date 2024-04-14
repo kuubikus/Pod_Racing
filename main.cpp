@@ -111,6 +111,7 @@ int main(){
     vector<int> CP_for_boost;  // The CP to be used for boost
     int last_x;
     int last_y;
+    vector<int> adjusted_CP;
 
     // game loop
     while (1) {
@@ -125,7 +126,6 @@ int main(){
         int opponent_y;
         int dist_to_opp;
         cin >> opponent_x >> opponent_y; cin.ignore();
-        vector<int> adjusted_CP;
         string thrust;
         
 
