@@ -57,11 +57,6 @@ class CP_manager{
 bool Check_boost(vector<int> best_point, vector<int> next_point, int angle){
     // Checks if the pod is in a place to use boost by determining if it is on the longest
     // stetch and if the pod is pointing towards the next CP
-
-    /*
-    NOTE: For some reason this function never returns true. Got promoted to gold before
-    I could fix it
-    */
     
     
     if (next_point == best_point and angle < 10 and angle > -10){
