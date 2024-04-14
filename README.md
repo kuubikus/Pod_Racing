@@ -1,4 +1,4 @@
-Repo for Milrem Summer School application.
+**Repo for Milrem Summer School application**
 
 Code is for https://www.codingame.com/ide/puzzle/mad-pod-racing challenge. This code got me promoted to gold league.
 
